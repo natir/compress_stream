@@ -1,3 +1,9 @@
+test/out.gz
+test/out.bz
+
+# Created by https://www.gitignore.io/api/c++,cmake
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -30,3 +36,18 @@
 *.exe
 *.out
 *.app
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+build
+
+
+# End of https://www.gitignore.io/api/c++,cmake
